@@ -2,7 +2,7 @@
 
 Simple script to check for new DSA or SA keycaps on [/r/mechmarket](https://www.reddit.com/r/mechmarket) and to look for SA "1976" keycap releases on [PMK](http://pimpmykeyboard.com/sa-1976-keycap-set/).
 
-If found, it will post to a Slack channel via an incoming webhook.
+If found, it will post to a Slack channel via an incoming webhook. LevelDB is used to keep a history of reddit threads so that the same thread is not broadcast to the channel.
 
 Intended to be run as a cronjob, e.g.
 ```
