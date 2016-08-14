@@ -1,3 +1,4 @@
 config/local.json5
 node_modules
 history
+sftp-config.json
